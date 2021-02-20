@@ -1,0 +1,31 @@
+table {
+  width: 50%;
+  margin-left: 2em;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.mat-cell, .mat-sort-header {
+  padding-left: 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th.mat-sort-header {
+  color:black;
+  background-color: rgb(204,204,204);
+}
+
+.mat-cell {
+  color: black;
+}
+
+.mat-row:nth-child(even){
+  background-color:rgb(255,255,255);
+}
+      
+.mat-row:nth-child(odd){
+  background-color: rgb(236,236,236);
+}

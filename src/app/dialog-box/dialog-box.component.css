@@ -1,0 +1,14 @@
+.mat-button {
+    width: 10em;
+    margin-left: 2em;
+    margin-right: auto;
+    margin-top: 1em;
+    border: 1px solid black;
+    background-color: rgb(236,236,236);
+}
+
+.mat-dialog-content{
+    width: 20em;
+    height: 12em;
+    overflow: hidden;
+}

@@ -24,6 +24,8 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
             "scripts": []
@@ -61,7 +63,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "it-craft-angluar-part:build"
+            "browserTarget": "it-craft-angluar-part:build",
+            "proxyConfig": "proxy.config.json"
           },
           "configurations": {
             "production": {
